@@ -51,6 +51,7 @@ public Object[][] getLoginData() throws Exception {
 
 public void URLLaunch(String URL) throws Exception {
 	initialisation(URL);
+	System.out.println("Initialisation");
 	 
 	 
 	
