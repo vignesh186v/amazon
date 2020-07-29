@@ -33,7 +33,7 @@ public static Workbook Workbook;
 public static org.apache.poi.ss.usermodel.Sheet sheet;
 public static Row row;
 public static String value="";
-public static String path="C:\\Users\\Vignesh\\Documents\\Testdata.xlsx";
+public static String path="C:\\Users\\Vignesh\\eclipse-workspace\\amazon\\Resources\\Testdata.xlsx";
 	
 	public Basetest()
 	
@@ -54,7 +54,7 @@ public static String path="C:\\Users\\Vignesh\\Documents\\Testdata.xlsx";
 	{
 		String Browsername = prop.getProperty("browser");
 		if(Browsername.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver","C:\\Program Files\\Selenium\\chromedriver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\Vignesh\\eclipse-workspace\\amazon\\Resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(Browsername.equals("firefox")) {
